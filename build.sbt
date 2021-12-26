@@ -98,7 +98,7 @@ lazy val frgFormatter = Project(
     libraryDependencies ++= Seq(
       logbackClassic,
       slf4jApi,
-      scalatest
+      scalatestFunSpec
     ),
     description := "fragnostic formatter"
   )
